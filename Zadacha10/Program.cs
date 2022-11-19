@@ -11,7 +11,7 @@ if (number<1000 && number>99)
 {
     int number2 = number / 10;
     int secondDigit = number2 % 10;
-    Console.WriteLine(secondDigit);
+    Console.WriteLine($"Вторая цифра: {secondDigit}");
 }
 
 else
